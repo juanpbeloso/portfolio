@@ -123,6 +123,7 @@ img {
   height: auto;
   border: 0;
   -ms-interpolation-mode: bicubic;
+  border-radius: 10px;
 }
 
 .page {
@@ -846,9 +847,10 @@ body > footer .copyrights {
 }
 
 .start-page-content .page-header .photo {
-  max-width: 235px;
+  max-width: 190px;
   margin-bottom: -75px;
-  border: 3px solid #fff;
+  border-radius: 10px;
+  border: 4px solid #fff;
   background-color: #fff;
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
   -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
@@ -1095,11 +1097,11 @@ body > footer .copyrights {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 20%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 40%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
@@ -1107,24 +1109,13 @@ body > footer .copyrights {
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 95%;
+  width: 80%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 75%;
+  width: 100%;
 }
-/*Skill 6*/
-.skill-percentage.skill-6 {
-  width: 92%;
-}
-/*Skill 7*/
-.skill-percentage.skill-7 {
-  width: 60%;
-}
-/*Skill 8*/
-.skill-percentage.skill-8 {
-  width: 77%;
-}
+
 /* Skills */
 
 .download-resume {
@@ -1604,6 +1595,7 @@ body > footer .copyrights {
 .blog-card .post-image {
   width: 100%;
   margin: 0;
+  
 }
 
 .blog-card .post-info {
@@ -2148,6 +2140,15 @@ body > footer .copyrights {
   background-color: #fff;
   padding: 30px;
   margin: -50px 40px 0;
+  border-radius: 10px;
+}
+
+.blog-post-main-image{
+  margin:5px auto;
+	display:block;
+  max-width: 100%;
+  max-height: 100%;
+
 }
 
 blockquote {
@@ -2179,6 +2180,11 @@ blockquote footer, blockquote small, blockquote .small {
 
 .entry-meta a:hover {
   color: #F4511E;
+}
+
+.portada {
+  height: 80%;
+  width: 80%;
 }
 
 .entry-meta.entry-tags-share {
